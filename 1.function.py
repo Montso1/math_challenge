@@ -56,7 +56,15 @@ class MathStudent:
     def __init__(self, name):
         self.name = name
 # 8. Inside the 'MathStudent' class, create a method named 'get_area' for a rectangle.
-
+def get_area(self, length, width):
+    return(length * width)
 # 9. Create a class named 'Calculator' with a starting attribute 'total' set to 0.
-
+class Calculator:
+    def __init__(self):
+        self.total = 0
 # 10. Inside the 'Calculator' class, create a method named 'add_to_total' to update the total.
+class Calculator:
+    def __init__(self) :
+        self.total =0
+    def add_to_total(self, value):
+        self.total = 0
